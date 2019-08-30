@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+boto3 = "*"
+pytest = "*"
+flake8 = "*"
+pyformat = "*"
+
+[packages]
+graphqlclient = "*"
+
+[scripts]
+fmt = "pyformat -air ."
+vet = "flake8"
+test = "pytest"
+
+[requires]
+python_version = "3.7"

@@ -1,1 +1,0 @@
-# appsync-request-python
