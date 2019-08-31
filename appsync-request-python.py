@@ -1,7 +1,7 @@
-from graphqlclient import graphqlclient
+from graphqlclient import GraphQLClient
 
 # GraphQL Endpoint
-client = graphqlclient('https://xxx.appsync-api.ap-northeast-1.amazonaws.com/graphql')
+client = GraphQLClient('https://xxx.appsync-api.ap-northeast-1.amazonaws.com/graphql')
 client.inject_token('xxx', 'x-api-key')
 
 
